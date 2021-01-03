@@ -1,0 +1,28 @@
+when set = 1 and bit = 0:
+	- wire a = 1
+	- wire b = 0  
+	- wire c = 1
+	- o = 0
+
+when set = 1 and bit = 1;	
+	- wire a = 0
+	- wire b = 1
+	- wire c = 0
+	- o = 1
+
+when set = 1 'o' is the same a bit
+
+bit 1 and o = 1 before set = 0
+	- o = 1
+	- wire c = 0
+
+when set = 0:
+	- wire a = 1 
+	- wire b = 1
+ 	- o = 1
+
+if bit 0 and o = 0 before set = 0
+	- o = 1
+	- wire c = 1
+
+	
